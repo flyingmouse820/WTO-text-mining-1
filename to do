@@ -1,0 +1,43 @@
+========================
+1. Around-project stuff
+========================
+
+- task: Organize the repository.
+- idea: 
+/
+  /Application
+    /files (for input and output .docx)
+    /libs   (all POI related .jar files, JUnit,  etc.)
+    /src
+      /main
+        WTODataExtractor.java
+    /test
+      /main
+        WTODataExtractorTest.java
+  to do
+  readme.md
+  
+  
+
+- task: Configure Git
+  idea: Windows client?
+
+========================
+2. Project tasks
+========================
+
+- task: Implement algs for counting # of different countries in a file.
+
+
+- task: Apply JUnit to test these results, compare to files like "countries in M264A1".
+
+- task: Standardize country names
+  idea: using 3-letter international code? (AUS, JAP, USA). 
+  And EU? Attention!!! 2-letter code is not the same thing as 3-letter code. 
+
+- task: Data structure of country names.
+  idea: External file to store country names (key-values). Parsing this file during program execution, filling the map.
+  
+- task: Produce several output files, 1 per country. 
+  idea: Process input file. Create a file when found a new country name. Example of filename: "output_M264A1_ARG.docx"
+    
