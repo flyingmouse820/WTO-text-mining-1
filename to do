@@ -2,25 +2,9 @@
 1. Around-project stuff
 ========================
 
-- task: Organize the repository.
-- idea: 
-/
-  /Application
-    /files (for input and output .docx)
-    /libs   (all POI related .jar files, JUnit,  etc.)
-    /src
-      /main
-        WTODataExtractor.java
-    /test
-      /main
-        WTODataExtractorTest.java
-  to do
-  readme.md
-  
-  
++ task: Organize the repository.
 
-- task: Configure Git
-  idea: Windows client?
++ task: Configure Git
 
 ========================
 2. Project tasks
